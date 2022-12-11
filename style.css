@@ -1,0 +1,337 @@
+﻿/* Голова */
+
+.video_background{
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    left:0px;
+    height: 110%;
+}
+
+.text_up{
+    position: relative;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.text_up h1{
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text_up h2{
+    font-weight: 300;
+    font-size: small;
+}
+
+.colomns_head{
+    height: 380px;
+    padding: 15px;
+    columns: 2;
+    z-index: 2;
+    position: relative;
+    color: white;
+    margin-top: 15%;
+}
+
+.border_left{
+    padding-left: 10px;
+    border-left: 3px solid #f14c31;
+    height: 90px;
+    width: 100%;
+    font-weight: 100;
+}
+
+.pos_move{
+    position: relative;
+    top:-40px;
+}
+
+.f2{
+    font-size: small;
+}
+
+.f12{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.f11{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.button_tariff{
+    top: 50%;
+    padding-top: 15px;
+    margin-bottom: 25%;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    font-size:12px;
+    font-weight: 300;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid #f14c31;
+}
+
+.button_tariff a{
+    color: white;
+    text-decoration: none;
+}
+
+.button_tariff:active{
+    background-color: #f14c31;
+}
+
+header{
+    top:0;
+    left:0;
+    justify-content: center;
+    position: static;
+    height: 120%;
+}
+
+/* Основной контент - информация о поддержке*/
+
+.support_main h1{
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    color:black;
+}
+
+.text_main{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.column_support{
+    position: relative;
+    padding-left: 10px;
+    columns: 2 120px;
+    margin-top: 10%;
+
+}
+
+.img_back{
+ opacity: 0.1;
+ width: 500px;
+ margin-bottom: -80px;
+}
+
+.img_front{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.support_cl_block{
+    font-size: small;
+    font-weight: 400;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    height: 150px;
+}
+
+/* Поддержка от Drupal-coder */
+
+.support_details h1{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    color:black;
+    
+}
+
+.details_block{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    box-shadow: 30px 3px 5px 2px rgba(190, 190, 190, 0.185);
+    border-radius: 5px;
+    background-color: w;
+    position: relative;
+    z-index: 3;
+}
+
+.num{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.details_block.back0{
+    background: url(/assets/img/support1.svg) no-repeat bottom right;
+}
+.details_block.back1{
+    background: url(/assets/img/support2.svg) no-repeat bottom right;
+}
+.details_block.back2{
+    background: url(/assets/img/support3.svg) no-repeat bottom right;
+}
+.details_block.back3{
+    background: url(/assets/img/support4.svg) no-repeat bottom right;
+}
+.details_block.back4{
+    background: url(/assets/img/support5.svg) no-repeat bottom right;
+}
+.details_block.back5{
+    background: url(/assets/img/support6.svg) no-repeat bottom right;
+}
+.details_block.back6{
+    background: url(/assets/img/support7.svg) no-repeat bottom right;
+}
+.details_block.back7{
+    background: url(/assets/img/support8.svg) no-repeat bottom right;
+    background-color: white;
+    box-shadow: 0px -5px 5px 2px rgba(190, 190, 190, 0.185);
+}
+
+/* Контент с синим фоном */
+
+.blue_content{
+    position: absolute;
+    height: 1000px;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(261.2deg, #1D1E2A -114.85%, #060815 69.04%), #394047;
+    margin-top: -150px;
+}
+
+.indent{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+    font-weight: 100;
+}
+
+.laptop_img{
+    position: relative;
+    z-index: 3;
+    height: 340px;
+    width: 300px;
+    left:0;
+}
+
+/*Тарифы*/
+
+.tariff{
+    position: absolute;
+   left: 0;
+   right: 0;
+    margin-top: 500px;
+    margin-bottom: 60px;
+    height: auto;
+    background: rgba(241, 76, 49, 0.3);
+}
+
+.tariff_block{
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.tariff_block h3{
+    color:#f14c31;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px inset rgb(218, 218, 218);
+}
+
+.text_tariff_block{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.tariff_block li{
+    float: left;
+    margin-right: 10px;
+    color:#f14c31;
+    list-style-type: '✔';
+    list-style-position: outside;
+    
+}
+
+.tariff_sb{
+    text-align: center;
+    font-size: 12px;
+    color: #f14c31;
+    margin-top: 35px;
+    border-radius: 5px;
+    border: 2px solid #f14c31;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.tariff_sb:active{
+    color:white;
+    background-color: #f14c31;
+}
+/*Разработчики*/
+
+.developers{
+    position: relative;
+    height: auto;
+    top:2200px;
+}
+
+.dev_list{
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    columns: 2;
+}
+
+.dev_img{
+    height: 150px;
+    width: 150px;
+}
+
+.av{break-inside: avoid;}
+
+.dev_one{
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.dev_info{
+    height: 160px;
+    width: 45%;
+    margin-left: 30%;
+}
+
+.crew_dev_b{
+margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(209, 209, 209);
+    height: 20px;
+    padding-top: 5px;
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgb(218, 218, 218);
+    text-align:center;
+}
+
+.crew_dev_b a{ 
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+body
+{
+    font-family: "Montserrat" , "Arial";
+}
