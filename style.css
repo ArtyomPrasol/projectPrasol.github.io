@@ -191,28 +191,28 @@
 }
 
 .details_block.back0{
-    background: url(/assets/img/support1.svg) no-repeat bottom right;
+    background: url(assets/img/support1.svg) no-repeat bottom right;
 }
 .details_block.back1{
-    background: url(/assets/img/support2.svg) no-repeat bottom right;
+    background: url(assets/img/support2.svg) no-repeat bottom right;
 }
 .details_block.back2{
-    background: url(/assets/img/support3.svg) no-repeat bottom right;
+    background: url(assets/img/support3.svg) no-repeat bottom right;
 }
 .details_block.back3{
-    background: url(/assets/img/support4.svg) no-repeat bottom right;
+    background: url(assets/img/support4.svg) no-repeat bottom right;
 }
 .details_block.back4{
-    background: url(/assets/img/support5.svg) no-repeat bottom right;
+    background: url(assets/img/support5.svg) no-repeat bottom right;
 }
 .details_block.back5{
-    background: url(/assets/img/support6.svg) no-repeat bottom right;
+    background: url(assets/img/support6.svg) no-repeat bottom right;
 }
 .details_block.back6{
-    background: url(/assets/img/support7.svg) no-repeat bottom right;
+    background: url(assets/img/support7.svg) no-repeat bottom right;
 }
 .details_block.back7{
-    background: url(/assets/img/support8.svg) no-repeat bottom right;
+    background: url(assets/img/support8.svg) no-repeat bottom right;
     background-color: white;
     box-shadow: 0px -5px 5px 2px rgba(190, 190, 190, 0.185);
 }
@@ -254,7 +254,7 @@
     margin-top: 500px;
     margin-bottom: 60px;
     height: auto;
-    background: url(/assets/img/D-background-opacity.svg) bottom right;
+    background: url(assets/img/D-background-opacity.svg) bottom right;
 }
 
 .tariff_block{
@@ -370,7 +370,7 @@ margin-top: -10px;
 .review_block{
     margin: 5% 0% 5% 0%;
     height: auto;
-    background:  url(/assets//img/right-quote-sign.svg) no-repeat left top;
+    background:  url(assets//img/right-quote-sign.svg) no-repeat left top;
     background-size: 26%;
 }
 
@@ -395,11 +395,11 @@ margin-top: -10px;
     outline: 0;
 }
 .slick_prev{
-    background: url(/assets/arrow-left.svg) no-repeat center;
+    background: url(assets/arrow-left.svg) no-repeat center;
     background-size: contain;
 }
 .slick_next{
-    background: url(/assets/arrow-right.svg) no-repeat center;
+    background: url(assets/arrow-right.svg) no-repeat center;
     background-size: contain;
 }
 .slick_slide{
@@ -490,7 +490,7 @@ margin-top: -10px;
 /* Форма */
 
 footer{
-    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(/assets/imgS/D-flying.svg) no-repeat top center/30%,url(/assets/imgS/D-footer.svg) no-repeat bottom right /30%,#040613;
+    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(assets/imgS/D-flying.svg) no-repeat top center/30%,url(assets/imgS/D-footer.svg) no-repeat bottom right /30%,#040613;
     margin-top: 80px;
 }
 
@@ -499,14 +499,14 @@ footer{
 }
 
 .number_list{
-    list-style-image: url(/assets/imgS/phone.svg);
+    list-style-image: url(assets/imgS/phone.svg);
     margin-bottom: 15px;
     margin-left: -40px;
     padding-left: 20px;
 }
 
 .email_list{
-    list-style-image: url(/assets/imgS/mail.svg);
+    list-style-image: url(assets/imgS/mail.svg);
     text-decoration: underline;
     margin-bottom: 30px;
     margin-left: -40px;
