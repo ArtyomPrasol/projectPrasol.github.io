@@ -142,10 +142,8 @@
 }
 
 .img_back{
- opacity: 0.1;
- width: 60px;
- height: 60px;
- margin-bottom: -80px;
+ height: 70px;
+ margin-bottom: -60px;
 }
 
 .img_front{
